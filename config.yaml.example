@@ -193,7 +193,7 @@ retry_wait: 5
 
 # Command to use instead of "ssh". This can be used to specify ssh
 # options. Defaults to not set.
-ssh_command: ssh -i "/root/.ssh/cloud7 per borgbase"
+# ssh_command: ssh -i "/root/.ssh/borgbase"
 
 # Base path used for various Borg directories. Defaults to $HOME,
 # ~$USER, or ~.
