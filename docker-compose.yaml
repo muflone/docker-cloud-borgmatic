@@ -17,6 +17,7 @@ services:
       - ./data/ssh:/root/.ssh
       - ./data/cache:/root/.cache/borg
       - ./data/borgmatic:/etc/borgmatic.d
+      - ./data/borg-repository:/mnt/borg-repository
       - ./data/root:/root/.borgmatic
 
 networks:
