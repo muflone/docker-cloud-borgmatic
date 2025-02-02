@@ -2,7 +2,7 @@ Docker Borgmatic for Cloud
 ==========================
 **Description:** Docker for Borgmatic
 
-**Copyright:** 2024 Fabio Castelli (Muflone) <muflone(at)muflone.com>
+**Copyright:** 2024-2025 Fabio Castelli (Muflone) <muflone(at)muflone.com>
 
 **License:** GPL-3+
 
