@@ -18,6 +18,7 @@ services:
       - ./data/borg-repository:/mnt/borg-repository
       - ./data/root:/root/.borgmatic
       - ./data/source:/mnt/source:ro
+      - ./data/state:/root/.local/state/borgmatic
 
 networks:
   default:
