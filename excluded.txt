@@ -1,3 +1,0 @@
-/backup/docker-compose/cloud8-nginx/data
-/backup/docker-compose/cloud8-nginx/logs
-

@@ -10,7 +10,6 @@ services:
     volumes:
       - /opt/docker-compose:/backup/docker-compose:ro
       - ./config.yaml:/etc/borgmatic.d/config.yaml
-      - ./excluded.txt:/etc/borgmatic.d/excluded.txt:ro
       - ./data/config:/root/.config/borg
       - ./data/ssh:/root/.ssh
       - ./data/cache:/root/.cache/borg
