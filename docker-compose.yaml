@@ -9,7 +9,7 @@ services:
       - ./app.env
     volumes:
       - /opt/docker-compose:/backup/docker-compose:ro
-      - ./config.yaml:/etc/borgmatic.d/config.yaml
+      - ./config.yaml:/etc/borgmatic.d/config.yaml:ro
       - ./data/config:/root/.config/borg
       - ./data/ssh:/root/.ssh
       - ./data/cache:/root/.cache/borg
